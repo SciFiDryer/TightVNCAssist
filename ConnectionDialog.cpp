@@ -24,7 +24,7 @@ BOOL CALLBACK ConnectCallback(HWND hwndDlg,
         }
         if (LOWORD(wParam) == IDCANCEL)
         {
-            
+            *hostAddr = NULL;
             EndDialog(hwndDlg, wParam);
             return TRUE;
         }

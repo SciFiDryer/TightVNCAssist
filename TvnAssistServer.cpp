@@ -105,7 +105,7 @@ TvnAssistServer::TvnAssistServer(bool runsInServiceContext,
     ConnectionDialog connectDlg = ConnectionDialog();
     connectDlg.showModel();
     TCHAR* hostAddr = connectDlg.getHostAddr();
-    if (hostAddr != NULL) 
+    if (hostAddr != NULL && _tcscmp(hostAddr, _T("")) != 0)
     {
         SocketIPv4* socket = new SocketIPv4();
         try 
