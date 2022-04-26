@@ -17,7 +17,7 @@ This project is a slightly modified version of TightVNC that:
 
 ## To use
 
-Download the TightVNC.exe file and launch. Type in an IP of a remote listening VNC viewer. The executable is portable and should be able to run unprivileged.
+Download the [latest release](https://github.com/SciFiDryer/TightVNCAssist/releases/download/v1.0/TightVNCAssist-1.0.zip), unzip and launch. Type in an IP of a remote listening VNC viewer. The executable is portable and should be able to run unprivileged. Tested only in Windows 10 x64.
 
 ## Building on your own
 
